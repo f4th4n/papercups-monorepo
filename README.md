@@ -10,16 +10,16 @@ Consist of papercups, chat-builder, chat-widget
 
 ```
 # go to root project
-cd papercups/assets
-npm install
-
-# go to root project
 cd chat-builder
 npm install
 
 # go to root project
 cd chat-widget
 npm install
+
+# go to root project
+cd papercups/assets
+npm install -S
 ```
 
 3. Setup backend: migrate DB, install dependencies
@@ -46,3 +46,4 @@ iex -S mix phx.server
 # Screenshots
 
 ![dashboard](docs/dashboard.png)
+![chat-widget](docs/chat-widget.png)
